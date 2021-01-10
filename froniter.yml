@@ -1,1 +1,8 @@
-
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
+seampl:
+  data:
+    hostname: http://localhost:8802
