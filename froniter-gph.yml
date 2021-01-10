@@ -1,0 +1,29 @@
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8801/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+    
+spring:
+  redis:
+    database: 2
+    host: localhost
+    port: 6379
+    #password: 936543rrds
+    jedis:
+      pool:
+        max-active: 100
+        max-wait: 2000
+        max-idle: 500
+        min-idle: 8
+    timeout: 5000
+seampl:
+  data:
+    hostname: http://localhost:8802
