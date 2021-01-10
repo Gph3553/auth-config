@@ -1,3 +1,4 @@
+env: gph
 graphql:
   servlet:
     mapping: /graphql
