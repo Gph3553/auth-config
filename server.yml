@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql.default:3306/auth_server_${spring.profiles.active}?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+  application:
+    name: auth-server
+  profiles:
+    active: @prifiles.active@
+server:
+  port: 8802
+    
+    
