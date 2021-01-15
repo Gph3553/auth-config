@@ -10,5 +10,3 @@ spring:
     active: @prifiles.active@
 server:
   port: 8802
-    
-    
