@@ -6,5 +6,3 @@ spring:
     password: root
   application:
     name: auth-server
-  profiles:
-    active: @prifiles.active@
